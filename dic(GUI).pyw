@@ -2,7 +2,7 @@ from tkinter import *
 import dic
 
 
-# must be -column, -columnspan, -in, -ipadx, -ipady, -padx, -pady, -row, -rowspan, or -sticky
+
 # window options
 window = Tk()
 window.title('Dictionary')
@@ -66,10 +66,11 @@ B_GO = Button(window, text='Go to translation', command=Go, bg='green', fg='whit
 B_GO.pack()
 
 
-
+# میانبر ها
 window.bind('<Return>', Go)
 window.bind('<Alt-a>', Advance_Search)
 window.bind('<F1>', Dev_info)
+
 lb = Listbox(window, height=30)
 lb.pack(expand=True, fill='x', pady=6, padx=6)
 
