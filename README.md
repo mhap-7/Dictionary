@@ -15,8 +15,11 @@ What do each of the files do?
 The dic (GUI) file is the graphic environment and the upper layer of the program, and it reads and displays information from the database through the dic.py file.
 As its name suggests, the Data.db file contains all available words.
 
-
-
+Features that will be added in the future:
+* Add words to the dictionary
+* Delete words by the ID of each word
+* Add help window
+* and more ...
 
 
 # دیکشنری
