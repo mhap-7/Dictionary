@@ -53,6 +53,8 @@ class Database:
 
     def delete(self, id):
         self.cur.execute('DELETE FROM dic WHERE id = %s' % (id))
+        # TODO: This section will be complete
 
     def add(self,en,fa):
         self.cur.execute('INSERT INTO dic VALUES(  );' % (id))
+        # TODO: This section will be complete
